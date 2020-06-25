@@ -1,3 +1,14 @@
+# Before original README starts
+This porting to windows project is not actually completed and may not be completed by myself as the limitation of available time.
+Something should be rewrite in the way Windows program works such as multi-processing should be translated into multi-threading.
+But I don't think it's fatal for now.
+
+Please search #ifdef _ WIN32 preprocessor instructions for where I've done changes and implement in the windows way if necessory.
+
+Sincerely,
+Yilin
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 # Vampire
 
 This is a brief introduction to this repository. Please see <a href="https://vprover.github.io/">the Vampire website</a> for more general information about Vampire. Please see LICENCE for usage restrictions. Note that Vampire makes use of minisat and z3 and some of this code is included in this codebase, such code is provided under their own licence.
