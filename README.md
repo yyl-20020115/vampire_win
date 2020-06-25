@@ -1,11 +1,12 @@
 # Before original README starts
 This porting to windows project is not actually completed and may not be completed by myself as the limitation of available time.
-Something should be rewrite in the way Windows program works such as multi-processing should be translated into multi-threading.
+Something should be rewritten in the way that Windows program works such as multi-processing should be translated into multi-threading.
 But I don't think it's fatal for now.
 
 Please search #ifdef _ WIN32 preprocessor instructions for where I've done changes and implement in the windows way if necessory.
 
-Sincerely,
+Sincerely, 
+
 Yilin
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
