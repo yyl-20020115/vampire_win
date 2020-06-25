@@ -1,0 +1,1605 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\Working3\vampire\Debug\Assertion.cpp">
+      <Filter>debug_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Debug\RuntimeStatistics.cpp">
+      <Filter>debug_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Debug\Tracer.cpp">
+      <Filter>debug_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Lib\Allocator.cpp">
+      <Filter>lib_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Lib\DHMap.cpp">
+      <Filter>lib_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Lib\Environment.cpp">
+      <Filter>lib_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Lib\Event.cpp">
+      <Filter>lib_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Lib\Exception.cpp">
+      <Filter>lib_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Lib\Hash.cpp">
+      <Filter>lib_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Lib\Int.cpp">
+      <Filter>lib_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Lib\IntNameTable.cpp">
+      <Filter>lib_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Lib\IntUnionFind.cpp">
+      <Filter>lib_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Lib\MemoryLeak.cpp">
+      <Filter>lib_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Lib\MultiCounter.cpp">
+      <Filter>lib_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Lib\NameArray.cpp">
+      <Filter>lib_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Lib\Random.cpp">
+      <Filter>lib_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Lib\StringUtils.cpp">
+      <Filter>lib_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Lib\System.cpp">
+      <Filter>lib_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Lib\TimeCounter.cpp">
+      <Filter>lib_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Lib\Timer.cpp">
+      <Filter>lib_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Lib\Sys\Multiprocessing.cpp">
+      <Filter>lib_sys_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Lib\Sys\Semaphore.cpp">
+      <Filter>lib_sys_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Lib\Sys\SyncPipe.cpp">
+      <Filter>lib_sys_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\Clause.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\ClauseQueue.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\ColorHelper.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\ELiteralSelector.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\EqHelper.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\FlatTerm.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\Formula.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\FormulaTransformer.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\FormulaUnit.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\FormulaVarIterator.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\Grounder.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\Inference.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\InferenceStore.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\InterpretedLiteralEvaluator.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\KBO.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\KBOForEPR.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\LiteralSelector.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\LookaheadLiteralSelector.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\MainLoop.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\Matcher.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\MaximalLiteralSelector.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\MLMatcher.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\MLVariant.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\Ordering.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\Ordering_Equality.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\Problem.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\Renaming.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\RobSubstitution.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\Signature.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\SortHelper.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\Sorts.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\SpassLiteralSelector.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\SubformulaIterator.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\Substitution.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\Term.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\TermIterators.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\TermTransformer.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\Theory.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\Unit.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Kernel\LPO.cpp">
+      <Filter>kernel_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Indexing\AcyclicityIndex.cpp">
+      <Filter>indexing_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Indexing\ClauseCodeTree.cpp">
+      <Filter>indexing_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Indexing\ClauseVariantIndex.cpp">
+      <Filter>indexing_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Indexing\CodeTree.cpp">
+      <Filter>indexing_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Indexing\CodeTreeInterfaces.cpp">
+      <Filter>indexing_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Indexing\GroundingIndex.cpp">
+      <Filter>indexing_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Indexing\Index.cpp">
+      <Filter>indexing_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Indexing\IndexManager.cpp">
+      <Filter>indexing_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Indexing\LiteralIndex.cpp">
+      <Filter>indexing_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Indexing\LiteralMiniIndex.cpp">
+      <Filter>indexing_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Indexing\LiteralSubstitutionTree.cpp">
+      <Filter>indexing_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Indexing\ResultSubstitution.cpp">
+      <Filter>indexing_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Indexing\SubstitutionTree.cpp">
+      <Filter>indexing_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Indexing\SubstitutionTree_FastGen.cpp">
+      <Filter>indexing_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Indexing\SubstitutionTree_FastInst.cpp">
+      <Filter>indexing_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Indexing\SubstitutionTree_Nodes.cpp">
+      <Filter>indexing_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Indexing\TermCodeTree.cpp">
+      <Filter>indexing_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Indexing\TermIndex.cpp">
+      <Filter>indexing_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Indexing\TermSharing.cpp">
+      <Filter>indexing_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Indexing\TermSubstitutionTree.cpp">
+      <Filter>indexing_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Inferences\BackwardDemodulation.cpp">
+      <Filter>inference_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Inferences\BackwardSubsumptionResolution.cpp">
+      <Filter>inference_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Inferences\BinaryResolution.cpp">
+      <Filter>inference_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Inferences\Condensation.cpp">
+      <Filter>inference_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Inferences\DistinctEqualitySimplifier.cpp">
+      <Filter>inference_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Inferences\EqualityFactoring.cpp">
+      <Filter>inference_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Inferences\EqualityResolution.cpp">
+      <Filter>inference_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Inferences\ExtensionalityResolution.cpp">
+      <Filter>inference_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Inferences\Factoring.cpp">
+      <Filter>inference_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Inferences\FastCondensation.cpp">
+      <Filter>inference_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Inferences\FOOLParamodulation.cpp">
+      <Filter>inference_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Inferences\ForwardDemodulation.cpp">
+      <Filter>inference_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Inferences\ForwardLiteralRewriting.cpp">
+      <Filter>inference_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Inferences\ForwardSubsumptionAndResolution.cpp">
+      <Filter>inference_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Inferences\GlobalSubsumption.cpp">
+      <Filter>inference_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Inferences\HyperSuperposition.cpp">
+      <Filter>inference_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Inferences\InnerRewriting.cpp">
+      <Filter>inference_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Inferences\EquationalTautologyRemoval.cpp">
+      <Filter>inference_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Inferences\Induction.cpp">
+      <Filter>inference_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Inferences\InferenceEngine.cpp">
+      <Filter>inference_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Inferences\Instantiation.cpp">
+      <Filter>inference_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Inferences\InterpretedEvaluation.cpp">
+      <Filter>inference_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Inferences\SLQueryBackwardSubsumption.cpp">
+      <Filter>inference_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Inferences\Superposition.cpp">
+      <Filter>inference_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Inferences\TautologyDeletionISE.cpp">
+      <Filter>inference_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Inferences\TermAlgebraReasoning.cpp">
+      <Filter>inference_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Inferences\URResolution.cpp">
+      <Filter>inference_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Inferences\TheoryInstAndSimp.cpp">
+      <Filter>inference_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\InstGen\IGAlgorithm.cpp">
+      <Filter>instancegeneration_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\InstGen\ModelPrinter.cpp">
+      <Filter>instancegeneration_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\SAT\BufferedSolver.cpp">
+      <Filter>sat_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\SAT\ClauseDisposer.cpp">
+      <Filter>sat_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\SAT\DIMACS.cpp">
+      <Filter>sat_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\SAT\FallbackSolverWrapper.cpp">
+      <Filter>sat_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\SAT\lglib.c">
+      <Filter>sat_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\SAT\lglopts.c">
+      <Filter>sat_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\SAT\MinimizingSolver.cpp">
+      <Filter>sat_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\SAT\Preprocess.cpp">
+      <Filter>sat_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\SAT\RestartStrategy.cpp">
+      <Filter>sat_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\SAT\SAT2FO.cpp">
+      <Filter>sat_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\SAT\SATClause.cpp">
+      <Filter>sat_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\SAT\SATInference.cpp">
+      <Filter>sat_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\SAT\SATLiteral.cpp">
+      <Filter>sat_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\SAT\TWLSolver.cpp">
+      <Filter>sat_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\SAT\VariableSelector.cpp">
+      <Filter>sat_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\SAT\Z3Interfacing.cpp">
+      <Filter>sat_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\DP\ShortConflictMetaDP.cpp">
+      <Filter>decision_procedures_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\DP\SimpleCongruenceClosure.cpp">
+      <Filter>decision_procedures_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Saturation\AWPassiveClauseContainer.cpp">
+      <Filter>saturation_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Saturation\ManCSPassiveClauseContainer.cpp">
+      <Filter>saturation_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Saturation\ClauseContainer.cpp">
+      <Filter>saturation_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Saturation\ConsequenceFinder.cpp">
+      <Filter>saturation_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Saturation\Discount.cpp">
+      <Filter>saturation_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Saturation\ExtensionalityClauseContainer.cpp">
+      <Filter>saturation_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Saturation\LabelFinder.cpp">
+      <Filter>saturation_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Saturation\Limits.cpp">
+      <Filter>saturation_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Saturation\LRS.cpp">
+      <Filter>saturation_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Saturation\Otter.cpp">
+      <Filter>saturation_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Saturation\ProvingHelper.cpp">
+      <Filter>saturation_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Saturation\SaturationAlgorithm.cpp">
+      <Filter>saturation_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Saturation\Splitter.cpp">
+      <Filter>saturation_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Saturation\SymElOutput.cpp">
+      <Filter>saturation_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Saturation\PredicateSplitPassiveClauseContainer.cpp">
+      <Filter>saturation_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\AnswerExtractor.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\BFNT.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\BFNTMainLoop.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\CommandLine.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\CNF.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\NewCNF.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\DistinctProcessor.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\DistinctGroupExpansion.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\EqResWithDeletion.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\EqualityProxy.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\Flattening.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\FunctionDefinition.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\GeneralSplitting.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\GoalGuessing.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\Grounding.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\InequalitySplitting.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\InterpolantMinimizer.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\InterpolantMinimizerNew.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\Interpolants.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\InterpolantsNew.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\InterpretedNormalizer.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\LaTeX.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\Lexer.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\LispLexer.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\LispParser.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\Naming.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\NNF.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\Normalisation.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\Options.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\PredicateDefinition.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\Preprocess.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\Property.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\Rectify.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\Skolem.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\SimplifyFalseTrue.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\SimplifyProver.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\SineUtils.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\SMTFormula.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\FOOLElimination.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\Statistics.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\SymbolDefinitionInlining.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\SymbolOccurrenceReplacement.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\SymCounter.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\TermAlgebra.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\TheoryAxioms.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\TheoryFinder.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\TheoryFlattening.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\BlockedClauseElimination.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\Token.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\TPTPPrinter.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\UIHelper.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\VarManager.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\SubexpressionIterator.cpp">
+      <Filter>shell_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Parse\SMTLIB2.cpp">
+      <Filter>parse_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Parse\TPTP.cpp">
+      <Filter>parse_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\FMB\ClauseFlattening.cpp">
+      <Filter>finitemodelbuilding_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\FMB\FiniteModel.cpp">
+      <Filter>finitemodelbuilding_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\FMB\FiniteModelBuilder.cpp">
+      <Filter>finitemodelbuilding_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\FMB\FiniteModelMultiSorted.cpp">
+      <Filter>finitemodelbuilding_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\FMB\FunctionRelationshipInference.cpp">
+      <Filter>finitemodelbuilding_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\FMB\Monotonicity.cpp">
+      <Filter>finitemodelbuilding_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\FMB\SortInference.cpp">
+      <Filter>finitemodelbuilding_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\SAT\Z3MainLoop.cpp">
+      <Filter>smt_comp_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Minisat\core\Solver.cc">
+      <Filter>minisat_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Minisat\simp\SimpSolver.cc">
+      <Filter>minisat_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Minisat\utils\Options.cc">
+      <Filter>minisat_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Minisat\utils\System.cc">
+      <Filter>minisat_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\SAT\MinisatInterfacing.cpp">
+      <Filter>minisat_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\SAT\MinisatInterfacingNewSimp.cpp">
+      <Filter>minisat_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\CASC\PortfolioMode.cpp">
+      <Filter>casc_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\CASC\Schedules.cpp">
+      <Filter>casc_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\CASC\ScheduleExecutor.cpp">
+      <Filter>casc_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\CASC\CLTBMode.cpp">
+      <Filter>casc_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\CASC\CLTBModeLearning.cpp">
+      <Filter>casc_source_files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Global.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\vampire.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\build\version.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\Working3\vampire\Debug\Assertion.hpp">
+      <Filter>debug_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Debug\RuntimeStatistics.hpp">
+      <Filter>debug_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Debug\Tracer.hpp">
+      <Filter>debug_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\Allocator.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\Array.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\ArrayMap.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\Backtrackable.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\BacktrackIterators.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\BinaryHeap.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\BitUtils.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\BucketSorter.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\Cache.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\Comparison.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\Counter.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\DArray.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\Deque.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\DHMap.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\DHMultiset.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\DHSet.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\DynamicHeap.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\Enumerator.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\Environment.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\Event.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\Exception.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\fdstream.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\FreshnessGuard.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\Hash.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\ImplicationSetClosure.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\InPlaceStack.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\Int.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\IntNameTable.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\IntUnionFind.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\InverseLookup.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\LastCopyWatcher.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\List.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\Map.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\MapToLIFO.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\MaybeBool.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\MemoryLeak.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\Metaarrays.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\Metaiterators.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\MultiColumnMap.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\MultiCounter.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\NameArray.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\Numbering.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\PairUtils.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\Portability.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\Random.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\RatioKeeper.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\RCPtr.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\Recycler.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\ReferenceCounter.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\Reflection.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\SafeRecursion.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\SCCAnalyzer.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\ScopedLet.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\ScopedPtr.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\Set.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\SharedSet.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\SkipList.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\SmartPtr.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\Sort.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\Stack.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\STLAllocator.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\StringUtils.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\System.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\TimeCounter.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\Timer.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\TriangularArray.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\Vector.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\VirtualIterator.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\VString.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\STL.hpp">
+      <Filter>lib_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\Sys\Multiprocessing.hpp">
+      <Filter>lib_sys_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\Sys\Semaphore.hpp">
+      <Filter>lib_sys_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Lib\Sys\SyncPipe.hpp">
+      <Filter>lib_sys_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\BestLiteralSelector.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\Clause.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\ClauseQueue.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\ColorHelper.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\Connective.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\Curryfier.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\ELiteralSelector.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\EqHelper.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\FlatTerm.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\Formula.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\FormulaTransformer.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\FormulaUnit.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\FormulaVarIterator.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\Grounder.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\Inference.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\InferenceStore.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\InterpretedLiteralEvaluator.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\KBO.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\KBOForEPR.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\LiteralComparators.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\LiteralSelector.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\LookaheadLiteralSelector.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\MainLoop.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\Matcher.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\MaximalLiteralSelector.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\MLMatcher.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\MLVariant.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\Ordering.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\Problem.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\RCClauseStack.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\Renaming.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\RobSubstitution.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\Signature.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\SortHelper.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\Sorts.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\SpassLiteralSelector.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\SubformulaIterator.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\SubstHelper.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\Substitution.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\Term.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\TermIterators.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\TermTransformer.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\Theory.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\Unit.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Kernel\LPO.hpp">
+      <Filter>kernel_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Indexing\AcyclicityIndex.hpp">
+      <Filter>indexing_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Indexing\ClauseCodeTree.hpp">
+      <Filter>indexing_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Indexing\ClauseVariantIndex.hpp">
+      <Filter>indexing_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Indexing\CodeTree.hpp">
+      <Filter>indexing_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Indexing\CodeTreeInterfaces.hpp">
+      <Filter>indexing_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Indexing\FormulaIndex.hpp">
+      <Filter>indexing_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Indexing\GroundingIndex.hpp">
+      <Filter>indexing_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Indexing\Index.hpp">
+      <Filter>indexing_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Indexing\IndexManager.hpp">
+      <Filter>indexing_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Indexing\LiteralIndex.hpp">
+      <Filter>indexing_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Indexing\LiteralIndexingStructure.hpp">
+      <Filter>indexing_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Indexing\LiteralMiniIndex.hpp">
+      <Filter>indexing_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Indexing\LiteralSubstitutionTree.hpp">
+      <Filter>indexing_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Indexing\ResultSubstitution.hpp">
+      <Filter>indexing_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Indexing\SubstitutionTree.hpp">
+      <Filter>indexing_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Indexing\TermCodeTree.hpp">
+      <Filter>indexing_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Indexing\TermIndex.hpp">
+      <Filter>indexing_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Indexing\TermIndexingStructure.hpp">
+      <Filter>indexing_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Indexing\TermSharing.hpp">
+      <Filter>indexing_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Indexing\TermSubstitutionTree.hpp">
+      <Filter>indexing_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Inferences\BackwardDemodulation.hpp">
+      <Filter>inference_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Inferences\BackwardSubsumptionResolution.hpp">
+      <Filter>inference_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Inferences\BinaryResolution.hpp">
+      <Filter>inference_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Inferences\Condensation.hpp">
+      <Filter>inference_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Inferences\DistinctEqualitySimplifier.hpp">
+      <Filter>inference_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Inferences\EqualityFactoring.hpp">
+      <Filter>inference_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Inferences\EqualityResolution.hpp">
+      <Filter>inference_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Inferences\ExtensionalityResolution.hpp">
+      <Filter>inference_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Inferences\Factoring.hpp">
+      <Filter>inference_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Inferences\FastCondensation.hpp">
+      <Filter>inference_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Inferences\FOOLParamodulation.hpp">
+      <Filter>inference_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Inferences\ForwardDemodulation.hpp">
+      <Filter>inference_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Inferences\ForwardLiteralRewriting.hpp">
+      <Filter>inference_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Inferences\ForwardSubsumptionAndResolution.hpp">
+      <Filter>inference_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Inferences\GlobalSubsumption.hpp">
+      <Filter>inference_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Inferences\HyperSuperposition.hpp">
+      <Filter>inference_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Inferences\InnerRewriting.hpp">
+      <Filter>inference_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Inferences\EquationalTautologyRemoval.hpp">
+      <Filter>inference_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Inferences\InferenceEngine.hpp">
+      <Filter>inference_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Inferences\Instantiation.hpp">
+      <Filter>inference_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Inferences\InterpretedEvaluation.hpp">
+      <Filter>inference_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Inferences\SLQueryBackwardSubsumption.hpp">
+      <Filter>inference_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Inferences\Superposition.hpp">
+      <Filter>inference_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Inferences\TautologyDeletionISE.hpp">
+      <Filter>inference_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Inferences\TermAlgebraReasoning.hpp">
+      <Filter>inference_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Inferences\URResolution.hpp">
+      <Filter>inference_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Inferences\TheoryInstAndSimp.hpp">
+      <Filter>inference_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\InstGen\IGAlgorithm.hpp">
+      <Filter>instancegeneration_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\InstGen\ModelPrinter.hpp">
+      <Filter>instancegeneration_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\SAT\BufferedSolver.hpp">
+      <Filter>sat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\SAT\ClauseDisposer.hpp">
+      <Filter>sat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\SAT\DIMACS.hpp">
+      <Filter>sat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\SAT\FallbackSolverWrapper.hpp">
+      <Filter>sat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\SAT\MinimizingSolver.hpp">
+      <Filter>sat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\SAT\Preprocess.hpp">
+      <Filter>sat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\SAT\RestartStrategy.hpp">
+      <Filter>sat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\SAT\SAT2FO.hpp">
+      <Filter>sat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\SAT\SATClause.hpp">
+      <Filter>sat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\SAT\SATInference.hpp">
+      <Filter>sat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\SAT\SATLiteral.hpp">
+      <Filter>sat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\SAT\SATSolver.hpp">
+      <Filter>sat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\SAT\TWLSolver.hpp">
+      <Filter>sat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\SAT\VariableSelector.hpp">
+      <Filter>sat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\SAT\Z3Interfacing.hpp">
+      <Filter>sat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\DP\DecisionProcedure.hpp">
+      <Filter>decision_procedures_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\DP\ShortConflictMetaDP.hpp">
+      <Filter>decision_procedures_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\DP\SimpleCongruenceClosure.hpp">
+      <Filter>decision_procedures_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Saturation\AWPassiveClauseContainer.hpp">
+      <Filter>saturation_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Saturation\ClauseContainer.hpp">
+      <Filter>saturation_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Saturation\ConsequenceFinder.hpp">
+      <Filter>saturation_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Saturation\Discount.hpp">
+      <Filter>saturation_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Saturation\ExtensionalityClauseContainer.hpp">
+      <Filter>saturation_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Saturation\LabelFinder.hpp">
+      <Filter>saturation_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Saturation\Limits.hpp">
+      <Filter>saturation_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Saturation\LRS.hpp">
+      <Filter>saturation_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Saturation\Otter.hpp">
+      <Filter>saturation_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Saturation\ProvingHelper.hpp">
+      <Filter>saturation_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Saturation\SaturationAlgorithm.hpp">
+      <Filter>saturation_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Saturation\Splitter.hpp">
+      <Filter>saturation_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Saturation\SymElOutput.hpp">
+      <Filter>saturation_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Saturation\PredicateSplitPassiveClauseContainer.hpp">
+      <Filter>saturation_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\AnswerExtractor.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\BFNT.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\BFNTMainLoop.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\CommandLine.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\CNF.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\NewCNF.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\DistinctProcessor.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\DistinctGroupExpansion.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\EqResWithDeletion.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\EqualityProxy.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\Flattening.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\FunctionDefinition.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\GeneralSplitting.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\Grounding.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\InequalitySplitting.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\InterpolantMinimizer.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\InterpolantMinimizerNew.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\Interpolants.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\InterpolantsNew.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\InterpretedNormalizer.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\LaTeX.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\Lexer.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\LispLexer.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\LispParser.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\Naming.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\NNF.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\Normalisation.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\Options.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\PredicateDefinition.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\Preprocess.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\Property.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\Rectify.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\Skolem.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\SimplifyFalseTrue.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\SimplifyProver.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\SineUtils.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\SMTFormula.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\SMTLIBLogic.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\FOOLElimination.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\Statistics.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\SymbolDefinitionInlining.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\SymbolOccurrenceReplacement.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\SymCounter.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\TermAlgebra.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\TheoryAxioms.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\TheoryFinder.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\TheoryFlattening.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\BlockedClauseElimination.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\Token.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\TPTPPrinter.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\UIHelper.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\VarManager.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Shell\SubexpressionIterator.hpp">
+      <Filter>shell_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Parse\SMTLIB.hpp">
+      <Filter>parse_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Parse\SMTLIB2.hpp">
+      <Filter>parse_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Parse\TPTP.hpp">
+      <Filter>parse_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\FMB\ClauseFlattening.hpp">
+      <Filter>finitemodelbuilding_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\FMB\DefinitionIntroduction.hpp">
+      <Filter>finitemodelbuilding_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\FMB\FiniteModel.hpp">
+      <Filter>finitemodelbuilding_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\FMB\FiniteModelBuilder.hpp">
+      <Filter>finitemodelbuilding_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\FMB\FiniteModelMultiSorted.hpp">
+      <Filter>finitemodelbuilding_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\FMB\FunctionRelationshipInference.hpp">
+      <Filter>finitemodelbuilding_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\FMB\ModelCheck.hpp">
+      <Filter>finitemodelbuilding_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\FMB\Monotonicity.hpp">
+      <Filter>finitemodelbuilding_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\FMB\SortInference.hpp">
+      <Filter>finitemodelbuilding_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\SAT\Z3MainLoop.hpp">
+      <Filter>smt_comp_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Minisat\core\Dimacs.h">
+      <Filter>minisat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Minisat\core\Solver.h">
+      <Filter>minisat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Minisat\core\SolverTypes.h">
+      <Filter>minisat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Minisat\mtl\Alg.h">
+      <Filter>minisat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Minisat\mtl\Alloc.h">
+      <Filter>minisat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Minisat\mtl\Heap.h">
+      <Filter>minisat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Minisat\mtl\IntMap.h">
+      <Filter>minisat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Minisat\mtl\IntTypes.h">
+      <Filter>minisat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Minisat\mtl\Map.h">
+      <Filter>minisat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Minisat\mtl\Queue.h">
+      <Filter>minisat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Minisat\mtl\Rnd.h">
+      <Filter>minisat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Minisat\mtl\Sort.h">
+      <Filter>minisat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Minisat\mtl\Vec.h">
+      <Filter>minisat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Minisat\mtl\XAlloc.h">
+      <Filter>minisat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Minisat\simp\SimpSolver.h">
+      <Filter>minisat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Minisat\utils\Options.h">
+      <Filter>minisat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Minisat\utils\ParseUtils.h">
+      <Filter>minisat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\Minisat\utils\System.h">
+      <Filter>minisat_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\CASC\PortfolioMode.hpp">
+      <Filter>casc_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\CASC\Schedules.hpp">
+      <Filter>casc_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\CASC\ScheduleExecutor.hpp">
+      <Filter>casc_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\CASC\CLTBMode.hpp">
+      <Filter>casc_source_files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Working3\vampire\CASC\CLTBModeLearning.hpp">
+      <Filter>casc_source_files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Working3\vampire\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{89D1C6CF-5591-37C9-8046-D3917922E8F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="casc_source_files">
+      <UniqueIdentifier>{3318BADB-E852-38EC-B331-5B4837ADF9F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="debug_source_files">
+      <UniqueIdentifier>{8EDE26D1-7680-31BB-A828-164D7B1752F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="decision_procedures_source_files">
+      <UniqueIdentifier>{527577C6-B41D-3A61-90CC-6B5D10512195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="finitemodelbuilding_source_files">
+      <UniqueIdentifier>{990E88A2-659A-36D2-8AA8-17F1FD47BD50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="indexing_source_files">
+      <UniqueIdentifier>{5D914692-FE06-3C85-B72F-FE3EE05DCA34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inference_source_files">
+      <UniqueIdentifier>{AA988F7C-F0FA-3813-A1A9-3CCBCB16CB00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="instancegeneration_source_files">
+      <UniqueIdentifier>{160BB906-FBC2-3E02-86FF-C0F16D0E4E95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kernel_source_files">
+      <UniqueIdentifier>{D7027EB8-AF48-357D-9221-8CE91AE72807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib_source_files">
+      <UniqueIdentifier>{D3212F1C-D729-37D0-90C5-0A4FCFD7A29C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib_sys_source_files">
+      <UniqueIdentifier>{FC1EF288-195D-31DE-9731-D035457EF7D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minisat_source_files">
+      <UniqueIdentifier>{FC180AB1-0559-34AF-882C-ECF3CFCA19A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="parse_source_files">
+      <UniqueIdentifier>{D0075E5D-CA70-3BC6-9CC4-74124BFDF374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sat_source_files">
+      <UniqueIdentifier>{CE10FE9D-3546-3A9F-81FD-AEE9DF8AFFF6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="saturation_source_files">
+      <UniqueIdentifier>{82E90F98-0A82-3F42-986B-14120F1F2B2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shell_source_files">
+      <UniqueIdentifier>{CB23EA67-E4DF-33FC-A5E4-53468B036E3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="smt_comp_source_files">
+      <UniqueIdentifier>{2FEA26FA-5E85-39DB-B526-EF74CA1E2A01}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

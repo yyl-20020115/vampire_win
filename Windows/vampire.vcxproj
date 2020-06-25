@@ -1,0 +1,863 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{63298BBB-0D2C-31BD-A521-58A703BB6F9E}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>vampire</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Working3\vampire\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vampire.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vampire_rel_master_4343</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Working3\vampire\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vampire.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vampire_rel_master_4343</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\Working3\vampire\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vampire.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vampire_rel_master_4343</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Working3\vampire\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vampire.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vampire_rel_master_4343</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Working3\vampire;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;VDEBUG=1;UNIX_USE_SIGALRM=1;GNUMP=0;CHECK_LEAKS=0;VZ3=0;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DisableSpecificWarnings>4297;4819;4002;4474;4267;4244;26451;4291;4200;</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;VDEBUG=1;UNIX_USE_SIGALRM=1;GNUMP=0;CHECK_LEAKS=0;VZ3=0;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Working3\vampire;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Working3\vampire;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Working3/vampire/build/Debug/vampire_rel_master_4343.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Working3/vampire/build/bin/Debug/vampire_rel_master_4343.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Working3\vampire;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;VDEBUG=0;CHECK_LEAKS=0;VZ3=0;CMAKE_INTDIR="Release";%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <DisableSpecificWarnings>4297;4819;4002;4474;4267;4244;26451;4291;4200;</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;VDEBUG=0;CHECK_LEAKS=0;VZ3=0;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Working3\vampire;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Working3\vampire;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Working3/vampire/build/Release/vampire_rel_master_4343.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Working3/vampire/build/bin/Release/vampire_rel_master_4343.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Working3\vampire;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CHECK_LEAKS=0;VZ3=0;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <DisableSpecificWarnings>4297;4819;4002;4474;4267;4244;26451;4291;4200;</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CHECK_LEAKS=0;VZ3=0;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Working3\vampire;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Working3\vampire;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Working3/vampire/build/MinSizeRel/vampire_rel_master_4343.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Working3/vampire/build/bin/MinSizeRel/vampire_rel_master_4343.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Working3\vampire;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CHECK_LEAKS=0;VZ3=0;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DisableSpecificWarnings>4297;4819;4002;4474;4267;4244;26451;4291;4200;</DisableSpecificWarnings>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CHECK_LEAKS=0;VZ3=0;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Working3\vampire;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Working3\vampire;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Working3/vampire/build/RelWithDebInfo/vampire_rel_master_4343.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Working3/vampire/build/bin/RelWithDebInfo/vampire_rel_master_4343.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Working3\vampire\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/Working3/vampire/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/Working3/vampire -BF:/Working3/vampire/build --check-stamp-file F:/Working3/vampire/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/Working3/vampire/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.14\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;F:\Working3\vampire\CMakeLists.txt;F:\Working3\vampire\build\CMakeFiles\3.14.3\CMakeCCompiler.cmake;F:\Working3\vampire\build\CMakeFiles\3.14.3\CMakeCXXCompiler.cmake;F:\Working3\vampire\build\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;F:\Working3\vampire\build\CMakeFiles\3.14.3\CMakeSystem.cmake;F:\Working3\vampire\build\CMakeFiles\feature_tests.c;F:\Working3\vampire\build\CMakeFiles\feature_tests.cxx;F:\Working3\vampire\version.cpp.in;F:\Working3\vampire\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Working3\vampire\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/Working3/vampire/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/Working3/vampire -BF:/Working3/vampire/build --check-stamp-file F:/Working3/vampire/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/Working3/vampire/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.14\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;F:\Working3\vampire\CMakeLists.txt;F:\Working3\vampire\build\CMakeFiles\3.14.3\CMakeCCompiler.cmake;F:\Working3\vampire\build\CMakeFiles\3.14.3\CMakeCXXCompiler.cmake;F:\Working3\vampire\build\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;F:\Working3\vampire\build\CMakeFiles\3.14.3\CMakeSystem.cmake;F:\Working3\vampire\build\CMakeFiles\feature_tests.c;F:\Working3\vampire\build\CMakeFiles\feature_tests.cxx;F:\Working3\vampire\version.cpp.in;F:\Working3\vampire\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Working3\vampire\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/Working3/vampire/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/Working3/vampire -BF:/Working3/vampire/build --check-stamp-file F:/Working3/vampire/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:/Working3/vampire/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.14\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;F:\Working3\vampire\CMakeLists.txt;F:\Working3\vampire\build\CMakeFiles\3.14.3\CMakeCCompiler.cmake;F:\Working3\vampire\build\CMakeFiles\3.14.3\CMakeCXXCompiler.cmake;F:\Working3\vampire\build\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;F:\Working3\vampire\build\CMakeFiles\3.14.3\CMakeSystem.cmake;F:\Working3\vampire\build\CMakeFiles\feature_tests.c;F:\Working3\vampire\build\CMakeFiles\feature_tests.cxx;F:\Working3\vampire\version.cpp.in;F:\Working3\vampire\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\Working3\vampire\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/Working3/vampire/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/Working3/vampire -BF:/Working3/vampire/build --check-stamp-file F:/Working3/vampire/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:/Working3/vampire/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.14\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;F:\Working3\vampire\CMakeLists.txt;F:\Working3\vampire\build\CMakeFiles\3.14.3\CMakeCCompiler.cmake;F:\Working3\vampire\build\CMakeFiles\3.14.3\CMakeCXXCompiler.cmake;F:\Working3\vampire\build\CMakeFiles\3.14.3\CMakeRCCompiler.cmake;F:\Working3\vampire\build\CMakeFiles\3.14.3\CMakeSystem.cmake;F:\Working3\vampire\build\CMakeFiles\feature_tests.c;F:\Working3\vampire\build\CMakeFiles\feature_tests.cxx;F:\Working3\vampire\version.cpp.in;F:\Working3\vampire\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Working3\vampire\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\Working3\vampire\Debug\Assertion.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Debug\RuntimeStatistics.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Debug\Tracer.cpp" />
+    <ClInclude Include="F:\Working3\vampire\Debug\Assertion.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Debug\RuntimeStatistics.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Debug\Tracer.hpp" />
+    <ClCompile Include="F:\Working3\vampire\Lib\Allocator.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Lib\DHMap.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Lib\Environment.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Lib\Event.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Lib\Exception.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Lib\Hash.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Lib\Int.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Lib\IntNameTable.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Lib\IntUnionFind.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Lib\MemoryLeak.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Lib\MultiCounter.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Lib\NameArray.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Lib\Random.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Lib\StringUtils.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Lib\System.cpp">
+      <ObjectFileName>$(IntDir)/Lib/System.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Lib\TimeCounter.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Lib\Timer.cpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\Allocator.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\Array.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\ArrayMap.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\Backtrackable.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\BacktrackIterators.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\BinaryHeap.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\BitUtils.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\BucketSorter.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\Cache.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\Comparison.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\Counter.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\DArray.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\Deque.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\DHMap.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\DHMultiset.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\DHSet.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\DynamicHeap.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\Enumerator.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\Environment.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\Event.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\Exception.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\fdstream.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\FreshnessGuard.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\Hash.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\ImplicationSetClosure.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\InPlaceStack.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\Int.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\IntNameTable.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\IntUnionFind.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\InverseLookup.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\LastCopyWatcher.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\List.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\Map.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\MapToLIFO.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\MaybeBool.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\MemoryLeak.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\Metaarrays.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\Metaiterators.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\MultiColumnMap.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\MultiCounter.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\NameArray.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\Numbering.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\PairUtils.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\Portability.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\Random.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\RatioKeeper.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\RCPtr.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\Recycler.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\ReferenceCounter.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\Reflection.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\SafeRecursion.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\SCCAnalyzer.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\ScopedLet.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\ScopedPtr.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\Set.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\SharedSet.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\SkipList.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\SmartPtr.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\Sort.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\Stack.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\STLAllocator.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\StringUtils.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\System.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\TimeCounter.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\Timer.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\TriangularArray.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\Vector.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\VirtualIterator.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\VString.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\STL.hpp" />
+    <ClCompile Include="F:\Working3\vampire\Lib\Sys\Multiprocessing.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Lib\Sys\Semaphore.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Lib\Sys\SyncPipe.cpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\Sys\Multiprocessing.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\Sys\Semaphore.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Lib\Sys\SyncPipe.hpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\Clause.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\ClauseQueue.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\ColorHelper.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\ELiteralSelector.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\EqHelper.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\FlatTerm.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\Formula.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\FormulaTransformer.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\FormulaUnit.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\FormulaVarIterator.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\Grounder.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\Inference.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\InferenceStore.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\InterpretedLiteralEvaluator.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\KBO.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\KBOForEPR.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\LiteralSelector.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\LookaheadLiteralSelector.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\MainLoop.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\Matcher.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\MaximalLiteralSelector.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\MLMatcher.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\MLVariant.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\Ordering.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\Ordering_Equality.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\Problem.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\Renaming.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\RobSubstitution.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\Signature.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\SortHelper.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\Sorts.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\SpassLiteralSelector.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\SubformulaIterator.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\Substitution.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\Term.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\TermIterators.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\TermTransformer.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\Theory.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\Unit.cpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\BestLiteralSelector.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\Clause.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\ClauseQueue.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\ColorHelper.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\Connective.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\Curryfier.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\ELiteralSelector.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\EqHelper.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\FlatTerm.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\Formula.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\FormulaTransformer.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\FormulaUnit.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\FormulaVarIterator.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\Grounder.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\Inference.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\InferenceStore.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\InterpretedLiteralEvaluator.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\KBO.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\KBOForEPR.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\LiteralComparators.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\LiteralSelector.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\LookaheadLiteralSelector.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\MainLoop.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\Matcher.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\MaximalLiteralSelector.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\MLMatcher.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\MLVariant.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\Ordering.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\Problem.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\RCClauseStack.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\Renaming.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\RobSubstitution.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\Signature.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\SortHelper.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\Sorts.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\SpassLiteralSelector.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\SubformulaIterator.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\SubstHelper.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\Substitution.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\Term.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\TermIterators.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\TermTransformer.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\Theory.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\Unit.hpp" />
+    <ClCompile Include="F:\Working3\vampire\Kernel\LPO.cpp" />
+    <ClInclude Include="F:\Working3\vampire\Kernel\LPO.hpp" />
+    <ClCompile Include="F:\Working3\vampire\Indexing\AcyclicityIndex.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Indexing\ClauseCodeTree.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Indexing\ClauseVariantIndex.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Indexing\CodeTree.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Indexing\CodeTreeInterfaces.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Indexing\GroundingIndex.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Indexing\Index.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Indexing\IndexManager.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Indexing\LiteralIndex.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Indexing\LiteralMiniIndex.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Indexing\LiteralSubstitutionTree.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Indexing\ResultSubstitution.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Indexing\SubstitutionTree.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Indexing\SubstitutionTree_FastGen.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Indexing\SubstitutionTree_FastInst.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Indexing\SubstitutionTree_Nodes.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Indexing\TermCodeTree.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Indexing\TermIndex.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Indexing\TermSharing.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Indexing\TermSubstitutionTree.cpp" />
+    <ClInclude Include="F:\Working3\vampire\Indexing\AcyclicityIndex.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Indexing\ClauseCodeTree.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Indexing\ClauseVariantIndex.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Indexing\CodeTree.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Indexing\CodeTreeInterfaces.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Indexing\FormulaIndex.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Indexing\GroundingIndex.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Indexing\Index.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Indexing\IndexManager.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Indexing\LiteralIndex.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Indexing\LiteralIndexingStructure.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Indexing\LiteralMiniIndex.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Indexing\LiteralSubstitutionTree.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Indexing\ResultSubstitution.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Indexing\SubstitutionTree.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Indexing\TermCodeTree.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Indexing\TermIndex.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Indexing\TermIndexingStructure.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Indexing\TermSharing.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Indexing\TermSubstitutionTree.hpp" />
+    <ClCompile Include="F:\Working3\vampire\Inferences\BackwardDemodulation.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Inferences\BackwardSubsumptionResolution.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Inferences\BinaryResolution.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Inferences\Condensation.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Inferences\DistinctEqualitySimplifier.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Inferences\EqualityFactoring.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Inferences\EqualityResolution.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Inferences\ExtensionalityResolution.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Inferences\Factoring.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Inferences\FastCondensation.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Inferences\FOOLParamodulation.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Inferences\ForwardDemodulation.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Inferences\ForwardLiteralRewriting.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Inferences\ForwardSubsumptionAndResolution.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Inferences\GlobalSubsumption.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Inferences\HyperSuperposition.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Inferences\InnerRewriting.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Inferences\EquationalTautologyRemoval.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Inferences\Induction.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Inferences\InferenceEngine.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Inferences\Instantiation.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Inferences\InterpretedEvaluation.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Inferences\SLQueryBackwardSubsumption.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Inferences\Superposition.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Inferences\TautologyDeletionISE.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Inferences\TermAlgebraReasoning.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Inferences\URResolution.cpp" />
+    <ClInclude Include="F:\Working3\vampire\Inferences\BackwardDemodulation.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Inferences\BackwardSubsumptionResolution.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Inferences\BinaryResolution.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Inferences\Condensation.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Inferences\DistinctEqualitySimplifier.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Inferences\EqualityFactoring.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Inferences\EqualityResolution.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Inferences\ExtensionalityResolution.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Inferences\Factoring.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Inferences\FastCondensation.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Inferences\FOOLParamodulation.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Inferences\ForwardDemodulation.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Inferences\ForwardLiteralRewriting.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Inferences\ForwardSubsumptionAndResolution.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Inferences\GlobalSubsumption.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Inferences\HyperSuperposition.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Inferences\InnerRewriting.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Inferences\EquationalTautologyRemoval.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Inferences\InferenceEngine.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Inferences\Instantiation.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Inferences\InterpretedEvaluation.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Inferences\SLQueryBackwardSubsumption.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Inferences\Superposition.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Inferences\TautologyDeletionISE.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Inferences\TermAlgebraReasoning.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Inferences\URResolution.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Inferences\TheoryInstAndSimp.hpp" />
+    <ClCompile Include="F:\Working3\vampire\Inferences\TheoryInstAndSimp.cpp" />
+    <ClCompile Include="F:\Working3\vampire\InstGen\IGAlgorithm.cpp" />
+    <ClCompile Include="F:\Working3\vampire\InstGen\ModelPrinter.cpp" />
+    <ClInclude Include="F:\Working3\vampire\InstGen\IGAlgorithm.hpp" />
+    <ClInclude Include="F:\Working3\vampire\InstGen\ModelPrinter.hpp" />
+    <ClCompile Include="F:\Working3\vampire\SAT\BufferedSolver.cpp" />
+    <ClCompile Include="F:\Working3\vampire\SAT\ClauseDisposer.cpp" />
+    <ClCompile Include="F:\Working3\vampire\SAT\DIMACS.cpp" />
+    <ClCompile Include="F:\Working3\vampire\SAT\FallbackSolverWrapper.cpp" />
+    <ClCompile Include="F:\Working3\vampire\SAT\lglib.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\SAT\lglopts.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\SAT\MinimizingSolver.cpp" />
+    <ClCompile Include="F:\Working3\vampire\SAT\Preprocess.cpp">
+      <ObjectFileName>$(IntDir)/SAT/Preprocess.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\SAT\RestartStrategy.cpp" />
+    <ClCompile Include="F:\Working3\vampire\SAT\SAT2FO.cpp" />
+    <ClCompile Include="F:\Working3\vampire\SAT\SATClause.cpp" />
+    <ClCompile Include="F:\Working3\vampire\SAT\SATInference.cpp" />
+    <ClCompile Include="F:\Working3\vampire\SAT\SATLiteral.cpp" />
+    <ClCompile Include="F:\Working3\vampire\SAT\TWLSolver.cpp" />
+    <ClCompile Include="F:\Working3\vampire\SAT\VariableSelector.cpp" />
+    <ClCompile Include="F:\Working3\vampire\SAT\Z3Interfacing.cpp" />
+    <ClInclude Include="F:\Working3\vampire\SAT\BufferedSolver.hpp" />
+    <ClInclude Include="F:\Working3\vampire\SAT\ClauseDisposer.hpp" />
+    <ClInclude Include="F:\Working3\vampire\SAT\DIMACS.hpp" />
+    <ClInclude Include="F:\Working3\vampire\SAT\FallbackSolverWrapper.hpp" />
+    <ClInclude Include="F:\Working3\vampire\SAT\MinimizingSolver.hpp" />
+    <ClInclude Include="F:\Working3\vampire\SAT\Preprocess.hpp" />
+    <ClInclude Include="F:\Working3\vampire\SAT\RestartStrategy.hpp" />
+    <ClInclude Include="F:\Working3\vampire\SAT\SAT2FO.hpp" />
+    <ClInclude Include="F:\Working3\vampire\SAT\SATClause.hpp" />
+    <ClInclude Include="F:\Working3\vampire\SAT\SATInference.hpp" />
+    <ClInclude Include="F:\Working3\vampire\SAT\SATLiteral.hpp" />
+    <ClInclude Include="F:\Working3\vampire\SAT\SATSolver.hpp" />
+    <ClInclude Include="F:\Working3\vampire\SAT\TWLSolver.hpp" />
+    <ClInclude Include="F:\Working3\vampire\SAT\VariableSelector.hpp" />
+    <ClInclude Include="F:\Working3\vampire\SAT\Z3Interfacing.hpp" />
+    <ClCompile Include="F:\Working3\vampire\DP\ShortConflictMetaDP.cpp" />
+    <ClCompile Include="F:\Working3\vampire\DP\SimpleCongruenceClosure.cpp" />
+    <ClInclude Include="F:\Working3\vampire\DP\DecisionProcedure.hpp" />
+    <ClInclude Include="F:\Working3\vampire\DP\ShortConflictMetaDP.hpp" />
+    <ClInclude Include="F:\Working3\vampire\DP\SimpleCongruenceClosure.hpp" />
+    <ClCompile Include="F:\Working3\vampire\Saturation\AWPassiveClauseContainer.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Saturation\ManCSPassiveClauseContainer.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Saturation\ClauseContainer.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Saturation\ConsequenceFinder.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Saturation\Discount.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Saturation\ExtensionalityClauseContainer.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Saturation\LabelFinder.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Saturation\Limits.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Saturation\LRS.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Saturation\Otter.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Saturation\ProvingHelper.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Saturation\SaturationAlgorithm.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Saturation\Splitter.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Saturation\SymElOutput.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Saturation\PredicateSplitPassiveClauseContainer.cpp" />
+    <ClInclude Include="F:\Working3\vampire\Saturation\AWPassiveClauseContainer.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Saturation\ClauseContainer.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Saturation\ConsequenceFinder.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Saturation\Discount.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Saturation\ExtensionalityClauseContainer.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Saturation\LabelFinder.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Saturation\Limits.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Saturation\LRS.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Saturation\Otter.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Saturation\ProvingHelper.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Saturation\SaturationAlgorithm.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Saturation\Splitter.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Saturation\SymElOutput.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Saturation\PredicateSplitPassiveClauseContainer.hpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\AnswerExtractor.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\BFNT.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\BFNTMainLoop.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\CommandLine.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\CNF.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\NewCNF.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\DistinctProcessor.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\DistinctGroupExpansion.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\EqResWithDeletion.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\EqualityProxy.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\Flattening.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\FunctionDefinition.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\GeneralSplitting.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\GoalGuessing.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\Grounding.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\InequalitySplitting.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\InterpolantMinimizer.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\InterpolantMinimizerNew.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\Interpolants.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\InterpolantsNew.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\InterpretedNormalizer.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\LaTeX.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\Lexer.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\LispLexer.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\LispParser.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\Naming.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\NNF.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\Normalisation.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\Options.cpp">
+      <ObjectFileName>$(IntDir)/Shell/Options.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\PredicateDefinition.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\Preprocess.cpp">
+      <ObjectFileName>$(IntDir)/Shell/Preprocess.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Shell\Property.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\Rectify.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\Skolem.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\SimplifyFalseTrue.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\SimplifyProver.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\SineUtils.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\SMTFormula.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\FOOLElimination.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\Statistics.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\SymbolDefinitionInlining.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\SymbolOccurrenceReplacement.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\SymCounter.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\TermAlgebra.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\TheoryAxioms.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\TheoryFinder.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\TheoryFlattening.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\BlockedClauseElimination.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\Token.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\TPTPPrinter.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\UIHelper.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\VarManager.cpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\AnswerExtractor.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\BFNT.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\BFNTMainLoop.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\CommandLine.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\CNF.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\NewCNF.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\DistinctProcessor.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\DistinctGroupExpansion.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\EqResWithDeletion.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\EqualityProxy.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\Flattening.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\FunctionDefinition.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\GeneralSplitting.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\Grounding.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\InequalitySplitting.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\InterpolantMinimizer.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\InterpolantMinimizerNew.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\Interpolants.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\InterpolantsNew.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\InterpretedNormalizer.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\LaTeX.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\Lexer.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\LispLexer.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\LispParser.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\Naming.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\NNF.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\Normalisation.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\Options.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\PredicateDefinition.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\Preprocess.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\Property.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\Rectify.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\Skolem.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\SimplifyFalseTrue.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\SimplifyProver.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\SineUtils.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\SMTFormula.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\SMTLIBLogic.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\FOOLElimination.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\Statistics.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\SymbolDefinitionInlining.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\SymbolOccurrenceReplacement.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\SymCounter.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\TermAlgebra.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\TheoryAxioms.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\TheoryFinder.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\TheoryFlattening.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\BlockedClauseElimination.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\Token.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\TPTPPrinter.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\UIHelper.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\VarManager.hpp" />
+    <ClCompile Include="F:\Working3\vampire\Shell\SubexpressionIterator.cpp" />
+    <ClInclude Include="F:\Working3\vampire\Shell\SubexpressionIterator.hpp" />
+    <ClCompile Include="F:\Working3\vampire\Parse\SMTLIB2.cpp" />
+    <ClCompile Include="F:\Working3\vampire\Parse\TPTP.cpp" />
+    <ClInclude Include="F:\Working3\vampire\Parse\SMTLIB.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Parse\SMTLIB2.hpp" />
+    <ClInclude Include="F:\Working3\vampire\Parse\TPTP.hpp" />
+    <ClCompile Include="F:\Working3\vampire\FMB\ClauseFlattening.cpp" />
+    <ClCompile Include="F:\Working3\vampire\FMB\FiniteModel.cpp" />
+    <ClCompile Include="F:\Working3\vampire\FMB\FiniteModelBuilder.cpp" />
+    <ClCompile Include="F:\Working3\vampire\FMB\FiniteModelMultiSorted.cpp" />
+    <ClCompile Include="F:\Working3\vampire\FMB\FunctionRelationshipInference.cpp" />
+    <ClCompile Include="F:\Working3\vampire\FMB\Monotonicity.cpp" />
+    <ClCompile Include="F:\Working3\vampire\FMB\SortInference.cpp" />
+    <ClInclude Include="F:\Working3\vampire\FMB\ClauseFlattening.hpp" />
+    <ClInclude Include="F:\Working3\vampire\FMB\DefinitionIntroduction.hpp" />
+    <ClInclude Include="F:\Working3\vampire\FMB\FiniteModel.hpp" />
+    <ClInclude Include="F:\Working3\vampire\FMB\FiniteModelBuilder.hpp" />
+    <ClInclude Include="F:\Working3\vampire\FMB\FiniteModelMultiSorted.hpp" />
+    <ClInclude Include="F:\Working3\vampire\FMB\FunctionRelationshipInference.hpp" />
+    <ClInclude Include="F:\Working3\vampire\FMB\ModelCheck.hpp" />
+    <ClInclude Include="F:\Working3\vampire\FMB\Monotonicity.hpp" />
+    <ClInclude Include="F:\Working3\vampire\FMB\SortInference.hpp" />
+    <ClCompile Include="F:\Working3\vampire\SAT\Z3MainLoop.cpp" />
+    <ClInclude Include="F:\Working3\vampire\SAT\Z3MainLoop.hpp" />
+    <ClCompile Include="F:\Working3\vampire\Minisat\core\Solver.cc" />
+    <ClCompile Include="F:\Working3\vampire\Minisat\simp\SimpSolver.cc" />
+    <ClCompile Include="F:\Working3\vampire\Minisat\utils\Options.cc">
+      <ObjectFileName>$(IntDir)/Minisat/utils/Options.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\Minisat\utils\System.cc">
+      <ObjectFileName>$(IntDir)/Minisat/utils/System.cc.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="F:\Working3\vampire\SAT\MinisatInterfacing.cpp" />
+    <ClCompile Include="F:\Working3\vampire\SAT\MinisatInterfacingNewSimp.cpp" />
+    <ClInclude Include="F:\Working3\vampire\Minisat\core\Dimacs.h" />
+    <ClInclude Include="F:\Working3\vampire\Minisat\core\Solver.h" />
+    <ClInclude Include="F:\Working3\vampire\Minisat\core\SolverTypes.h" />
+    <ClInclude Include="F:\Working3\vampire\Minisat\mtl\Alg.h" />
+    <ClInclude Include="F:\Working3\vampire\Minisat\mtl\Alloc.h" />
+    <ClInclude Include="F:\Working3\vampire\Minisat\mtl\Heap.h" />
+    <ClInclude Include="F:\Working3\vampire\Minisat\mtl\IntMap.h" />
+    <ClInclude Include="F:\Working3\vampire\Minisat\mtl\IntTypes.h" />
+    <ClInclude Include="F:\Working3\vampire\Minisat\mtl\Map.h" />
+    <ClInclude Include="F:\Working3\vampire\Minisat\mtl\Queue.h" />
+    <ClInclude Include="F:\Working3\vampire\Minisat\mtl\Rnd.h" />
+    <ClInclude Include="F:\Working3\vampire\Minisat\mtl\Sort.h" />
+    <ClInclude Include="F:\Working3\vampire\Minisat\mtl\Vec.h" />
+    <ClInclude Include="F:\Working3\vampire\Minisat\mtl\XAlloc.h" />
+    <ClInclude Include="F:\Working3\vampire\Minisat\simp\SimpSolver.h" />
+    <ClInclude Include="F:\Working3\vampire\Minisat\utils\Options.h" />
+    <ClInclude Include="F:\Working3\vampire\Minisat\utils\ParseUtils.h" />
+    <ClInclude Include="F:\Working3\vampire\Minisat\utils\System.h" />
+    <ClCompile Include="F:\Working3\vampire\CASC\PortfolioMode.cpp" />
+    <ClCompile Include="F:\Working3\vampire\CASC\Schedules.cpp" />
+    <ClCompile Include="F:\Working3\vampire\CASC\ScheduleExecutor.cpp" />
+    <ClCompile Include="F:\Working3\vampire\CASC\CLTBMode.cpp" />
+    <ClCompile Include="F:\Working3\vampire\CASC\CLTBModeLearning.cpp" />
+    <ClInclude Include="F:\Working3\vampire\CASC\PortfolioMode.hpp" />
+    <ClInclude Include="F:\Working3\vampire\CASC\Schedules.hpp" />
+    <ClInclude Include="F:\Working3\vampire\CASC\ScheduleExecutor.hpp" />
+    <ClInclude Include="F:\Working3\vampire\CASC\CLTBMode.hpp" />
+    <ClInclude Include="F:\Working3\vampire\CASC\CLTBModeLearning.hpp" />
+    <ClCompile Include="F:\Working3\vampire\Global.cpp" />
+    <ClCompile Include="F:\Working3\vampire\vampire.cpp" />
+    <ClCompile Include="F:\Working3\vampire\build\version.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
