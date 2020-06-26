@@ -3,6 +3,8 @@ This porting to windows project is not actually completed and may not be complet
 Something should be rewritten in the way that Windows program works such as multi-processing should be translated into multi-threading.
 But I don't think it's fatal for now.
 
+Sloution and Project files are in Windows directory, please open with Visual Studio 2019 (or earilier).
+
 Please search #ifdef _ WIN32 preprocessor instructions for where I've done changes and implement in the windows way if necessory.
 
 Sincerely, 
